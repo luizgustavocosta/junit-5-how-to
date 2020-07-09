@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/luizgustavocosta/junit-5-how-to.svg?branch=master)](https://travis-ci.org/luizgustavocosta/junit-5-how-to)
+
 # Project title 
 :vertical_traffic_light: junit-5-how-to :vertical_traffic_light:
 
