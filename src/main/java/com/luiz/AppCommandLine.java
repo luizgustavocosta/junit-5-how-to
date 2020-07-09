@@ -25,7 +25,7 @@ public class AppCommandLine implements CommandLineRunner {
     public void run(String... args) {
         Scanner scanner = new Scanner(System.in);
         buildMenu();
-        String command = scanner.nextLine();
+        String command = "";
         final ProductCLI productCLI = context.getBean(ProductCLI.class);
         while(!command.equals("exit")) {
             command = scanner.next();
@@ -35,8 +35,7 @@ public class AppCommandLine implements CommandLineRunner {
                     buildMenu();
                     break;
                 case "2" :
-                    final List<Product> products = productCLI.findAll();
-                    System.out.println("products = " + products);
+                    productCLI.findAll().forEach(System.out::println);
                     buildMenu();
                     break;
                 case "exit":
@@ -58,11 +57,10 @@ public class AppCommandLine implements CommandLineRunner {
     }
 
     private void buildMenu() {
-        System.out.println("******** CLI MENU ********");
-        System.out.println("1 - Create a random product");
-        System.out.println("2 - Print all products");
-        System.out.println("exit - stop CLI");
-        System.out.println("*************************");
+        System.out.println("******** CLI MENU **************");
+        System.out.println("* 1 - Create a random product  *");
+        System.out.println("* 2 - Print all products       *");
+        System.out.println("********************************");
     }
 }
 
