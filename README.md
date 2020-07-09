@@ -1,4 +1,4 @@
-#Project title 
+# Project title 
 :vertical_traffic_light: junit-5-how-to :vertical_traffic_light:
 
 This is an example of JUnit-5 with Spring :high_brightness:
@@ -7,7 +7,7 @@ This is an example of JUnit-5 with Spring :high_brightness:
 
 * This is a sandbox to test JUnit 5 not a real project
 
-#Getting started
+# Getting started
 
 # How to run
 
@@ -47,7 +47,7 @@ Product{id='5cac3c8f-342f-4c50-ac30-b404ef755e3a', title='4057b5da-2', price=7}
 
 # Author
 
-Luiz Costa
+Luiz Gustavo Costa
 
 # Acknowledgments
-###Java, Maven, JUnit 5, Spring
+### Java, Maven, JUnit 5, Spring
