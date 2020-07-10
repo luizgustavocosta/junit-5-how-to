@@ -1,7 +1,6 @@
 package com.luiz;
 
-import com.luiz.actions.client.cli.ProductCLI;
-import com.luiz.domain.model.Product;
+import com.luiz.actions.client.ProductCLI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ApplicationContext;
@@ -42,24 +41,37 @@ public class AppCommandLine implements CommandLineRunner {
                     System.out.println("Bye bye");
                     break;
             }
-            System.out.println(command);
         }
     }
 
-    private String randomPrice() {
+    /**
+     * Random price string.
+     *
+     * @return the string
+     */
+    String randomPrice() {
         return Arrays.asList(1,2,3,4,5,6,7,8,9,10)
                 .get(new Random().nextInt(10))
                 .toString();
     }
 
+    /**
+     * Random name string.
+     *
+     * @return the string
+     */
     private String randomName() {
         return UUID.randomUUID().toString().substring(0, 10);
     }
 
+    /**
+     * Build menu.
+     */
     private void buildMenu() {
         System.out.println("******** CLI MENU **************");
         System.out.println("* 1 - Create a random product  *");
         System.out.println("* 2 - Print all products       *");
+        System.out.println("* exit - Turn off CLI MENU     *");
         System.out.println("********************************");
     }
 }

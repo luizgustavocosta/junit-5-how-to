@@ -2,7 +2,7 @@ package com.luiz.actions.products;
 
 import org.junit.jupiter.api.Test;
 
-class AddProductClientCommandTest {
+class AddProductCommandClientCommandAdapterHandlerExecutorTest {
 
     @Test
     void add() {

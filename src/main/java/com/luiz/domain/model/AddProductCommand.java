@@ -1,11 +1,13 @@
-package com.luiz.command;
+package com.luiz.domain.model;
+
+import com.luiz.actions.products.ClientCommand;
 
 import java.math.BigDecimal;
 
 /**
  * The type Add product command.
  */
-public class AddProductCommand {
+public class AddProductCommand implements ClientCommand {
 
     private String title;
     private BigDecimal price;
@@ -38,4 +40,5 @@ public class AddProductCommand {
     public BigDecimal getPrice() {
         return price;
     }
+
 }

@@ -1,4 +1,4 @@
-package com.luiz.actions.client.cli;
+package com.luiz.actions.client.dto;
 
 /**
  * The type Product request.

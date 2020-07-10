@@ -33,12 +33,9 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-hateoas</artifactId>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.10</version>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
@@ -66,6 +63,28 @@
             <version>${mockito.junit.jupiter.vesion}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>2.24.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.1.8.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -75,6 +94,8 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+<!--                    <compilerArgument>-proc:none</compilerArgument>-->
+<!--                        <forceJavacCompilerUse>true</forceJavacCompilerUse>-->
                 </configuration>
             </plugin>
             <plugin>
@@ -109,4 +130,5 @@
             </extension>
         </extensions>
     </build>
+
 </project>

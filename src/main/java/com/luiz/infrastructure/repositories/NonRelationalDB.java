@@ -12,7 +12,7 @@ import java.util.List;
 @Qualifier("nonRelationalDB")
 public class NonRelationalDB implements ProductRepository {
 
-    private List<Product> products = new ArrayList<>();
+    private final List<Product> products = new ArrayList<>();
 
     @Override
     public void add(Product product) {

@@ -7,9 +7,16 @@ This is an example of JUnit-5 with Spring :high_brightness:
 
 # Assumptions
 
-* This is a sandbox to test JUnit 5 not a real project
+* This is a sandbox to test JUnit 5 not a real project,
+* There is a small part of DDD (Domain Drive Design) and CQRS (Command Query Responsibility Segregation) inside as well.
 
 # Getting started
+
+# Class diagram
+
+[![](https://mermaid.ink/img/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5DbGllbnQtPj4rUmVzdC9DTEk6IEhlbGxvIEpvaG4sIGhvdyBhcmUgeW91P1xuUmVzdC9DTEktPj4rSGFuZGxlcjogSm9obiwgY2FuIHlvdSBoZWFyIG1lP1xuUmVzdC9DTEktLT4-LUhhbmRsZXI6IEhpIEFsaWNlLCBJIGNhbiBoZWFyIHlvdSFcbkhhbmRsZXItLT4-LUFkYXB0ZXI6IEkgZmVlbCBncmVhdCFcbkFkYXB0ZXItLT4-K1NlcnZpY2U6IHNhdmVcblNlcnZpY2UtLT4-K1JlcG9zaXRvcnk6IEkgZmVlbCBncmVhdCBfKCFcblJlcG9zaXRvcnktLT4-K0RhdGFiYXNlOiBJIGZlZWwgZ3JlYXQgXyghXG4gIFxuXHRcdFx0XHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkYXJrIn19)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5DbGllbnQtPj4rUmVzdC9DTEk6IEhlbGxvIEpvaG4sIGhvdyBhcmUgeW91P1xuUmVzdC9DTEktPj4rSGFuZGxlcjogSm9obiwgY2FuIHlvdSBoZWFyIG1lP1xuUmVzdC9DTEktLT4-LUhhbmRsZXI6IEhpIEFsaWNlLCBJIGNhbiBoZWFyIHlvdSFcbkhhbmRsZXItLT4-LUFkYXB0ZXI6IEkgZmVlbCBncmVhdCFcbkFkYXB0ZXItLT4-K1NlcnZpY2U6IHNhdmVcblNlcnZpY2UtLT4-K1JlcG9zaXRvcnk6IEkgZmVlbCBncmVhdCBfKCFcblJlcG9zaXRvcnktLT4-K0RhdGFiYXNlOiBJIGZlZWwgZ3JlYXQgXyghXG4gIFxuXHRcdFx0XHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkYXJrIn19)
+  
+					
 
 # How to run
 
@@ -41,6 +48,7 @@ This is an example of JUnit-5 with Spring :high_brightness:
 ******** CLI MENU **************
 * 1 - Create a random product  *
 * 2 - Print all products       *
+* exit - Turn off CLI MENU     *
 ********************************
 1
 2
@@ -52,4 +60,4 @@ Product{id='5cac3c8f-342f-4c50-ac30-b404ef755e3a', title='4057b5da-2', price=7}
 Luiz Gustavo Costa
 
 # Acknowledgments
-### Java, Maven, JUnit 5, Spring
+### Java, Maven, JUnit 5, Spring, DDD, CQRS

@@ -15,11 +15,11 @@ public class RelationalDB implements ProductRepository {
 
     @Override
     public void add(Product product) {
-
+        throw new UnsupportedOperationException();
     }
 
     @Override
     public List<Product> findAll() {
-        return null;
+        throw new UnsupportedOperationException();
     }
 }
