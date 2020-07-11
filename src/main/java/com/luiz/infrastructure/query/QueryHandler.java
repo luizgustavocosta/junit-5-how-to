@@ -42,6 +42,7 @@ public class QueryHandler {
      * @return the object
      */
     public Object execute(ClientQuery query) {
+        // FIXME - Extract to a common class as Command/Query
         for (Class<Query> commandHandlerClass : queries) {
             for (AnnotatedType annotatedInterface : commandHandlerClass.getAnnotatedInterfaces()) {
                 if (annotatedInterface.getType().getTypeName().split("<*, ")[1].replace(">","")

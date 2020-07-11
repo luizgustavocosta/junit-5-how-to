@@ -1,11 +1,11 @@
-ID, NAME,                       PRICE,  QUANTITY,   TOTAL
-1,  PLAYSTATION 1,              100,    3,          300
-2,  LIPITOR,                    30,     1,          30
-3,  COROLLA,                    20000,  1,          20_000
-4,  STAR WARS,                  10,     10,         100
-5,  IPAD,                       100,    2,          200
-6,  MARIO BROS. FRANCHISE,      250,    3,          750
-7,  MICHAEL JACKSON’S THRILLER, 20,     1,          20
-8,  HARRY POTTER,               15,     1,          15
-9,  IPHONE,                     300,    3,          900
-10,  RUBIK’S CUBE,              30,     0,          0
+ID, NAME,                       PRICE
+1,  PLAYSTATION 1,              100.19
+2,  LIPITOR,                    30.2
+3,  COROLLA,                    20001
+4,  STAR WARS,                  10
+5,  IPAD,                       100
+6,  MARIO BROS. FRANCHISE,      250
+7,  MICHAEL JACKSON’S THRILLER, 20.99
+8,  HARRY POTTER,               15.0
+9,  IPHONE,                     300.2
+10,  RUBIK’S CUBE,              30.1

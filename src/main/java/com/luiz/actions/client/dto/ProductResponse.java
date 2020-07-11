@@ -2,8 +2,6 @@ package com.luiz.actions.client.dto;
 
 import java.math.BigDecimal;
 import java.time.Instant;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 
 /**
  * The type Product response.

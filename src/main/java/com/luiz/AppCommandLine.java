@@ -6,7 +6,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.UUID;
 
 /**
  * The type App command line.

@@ -42,6 +42,7 @@ public class CommandHandler {
      * @return the object
      */
     public Object execute(ClientCommand command) {
+        // FIXME - Extract to a common class
         for (Class<CommandAdapter> commandHandlerClass : commands) {
             for (AnnotatedType annotatedInterface : commandHandlerClass.getAnnotatedInterfaces()) {
                 if (annotatedInterface.getType().getTypeName().split("<*, ")[1].replace(">","")

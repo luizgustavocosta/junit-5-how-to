@@ -1,10 +1,10 @@
 package com.luiz.actions.client;
 
 import com.luiz.actions.client.dto.ProductResponse;
-import com.luiz.support.builder.ProductTestBuilder;
 import com.luiz.domain.model.Product;
 import com.luiz.infrastructure.command.CommandHandler;
 import com.luiz.infrastructure.query.QueryHandler;
+import com.luiz.support.builder.ProductTestBuilder;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

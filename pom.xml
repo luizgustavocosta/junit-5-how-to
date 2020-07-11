@@ -21,10 +21,13 @@
         <junit.platform.commons.version>1.6.2</junit.platform.commons.version>
         <junit.platform.surefire.provider.version>1.1.0</junit.platform.surefire.provider.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
-        <maven.archetype.version>3.0.1</maven.archetype.version>
+        <mockito.core.version>2.24.0</mockito.core.version>
         <mockito.junit.jupiter.vesion>3.3.0</mockito.junit.jupiter.vesion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring.framework.version>5.1.8.RELEASE</spring.framework.version>
+        <spring.maven.plugin.version>1.4.2.RELEASE</spring.maven.plugin.version>
+        <reflections.version>0.9.10</reflections.version>
     </properties>
 
     <dependencies>
@@ -33,9 +36,25 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
-            <version>0.9.10</version>
+            <version>${reflections.version}</version>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
@@ -66,24 +85,8 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>2.24.0</version>
+            <version>${mockito.core.version}</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.1.8.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
     <build>
@@ -94,8 +97,6 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-<!--                    <compilerArgument>-proc:none</compilerArgument>-->
-<!--                        <forceJavacCompilerUse>true</forceJavacCompilerUse>-->
                 </configuration>
             </plugin>
             <plugin>
@@ -121,14 +122,18 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring.maven.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.archetype</groupId>
-                <artifactId>archetype-packaging</artifactId>
-                <version>${maven.archetype.version}</version>
-            </extension>
-        </extensions>
     </build>
-
 </project>

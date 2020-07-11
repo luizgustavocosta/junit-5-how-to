@@ -1,8 +1,8 @@
 package com.luiz.actions.client;
 
-import com.luiz.support.builder.ProductTestBuilder;
 import com.luiz.infrastructure.command.CommandHandler;
 import com.luiz.infrastructure.query.QueryHandler;
+import com.luiz.support.builder.ProductTestBuilder;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

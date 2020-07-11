@@ -4,8 +4,6 @@ import java.math.BigDecimal;
 import java.util.Objects;
 import java.util.UUID;
 
-import static java.util.Objects.isNull;
-
 // Entity
 public class Product {
 
@@ -13,14 +11,10 @@ public class Product {
     private final String title;
     private final BigDecimal price;
 
-    public Product(String id, String title, BigDecimal price) {
+    public Product(String title, BigDecimal price) {
         Objects.requireNonNull(title);
         Objects.requireNonNull(price);
-        if (isNull(id)) {
-            this.id = UUID.randomUUID().toString();
-        } else {
-            this.id = id;
-        }
+        this.id = UUID.randomUUID().toString();
         this.title = title;
         this.price = price;
     }
@@ -74,7 +68,7 @@ public class Product {
         }
 
         public Product build() {
-            return new Product(this.id, this.title, this.price);
+            return new Product(this.title, this.price);
         }
     }
 }

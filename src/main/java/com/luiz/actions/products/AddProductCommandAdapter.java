@@ -3,8 +3,8 @@ package com.luiz.actions.products;
 import com.luiz.domain.model.AddProductCommand;
 import com.luiz.domain.model.Product;
 import com.luiz.domain.model.ProductService;
-import com.luiz.infrastructure.command.CommandAdapter;
 import com.luiz.infrastructure.command.Command;
+import com.luiz.infrastructure.command.CommandAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

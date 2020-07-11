@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class ProductListAssert extends AbstractAssert<ProductListAssert, List<Product>> {
 
-    private List<Product> products;
+    private final List<Product> products;
 
     /**
      * Instantiates a new Product list assert.
@@ -37,29 +37,25 @@ public class ProductListAssert extends AbstractAssert<ProductListAssert, List<Pr
      * Has price lower than product list assert.
      *
      * @param price the price
-     * @return the product list assert
      */
-    public ProductListAssert hasPriceLowerThan(BigDecimal price) {
+    public void hasPriceLowerThan(BigDecimal price) {
         products.forEach(product -> {
             if (product.getPrice().compareTo(price) < 0) {
                 failWithMessage("The price should be lower than " + price);
             }
         });
-        return this;
     }
 
     /**
      * Has price bigger than product list assert.
      *
      * @param price the price
-     * @return the product list assert
      */
-    public ProductListAssert hasPriceBiggerThan(BigDecimal price) {
+    public void hasPriceBiggerThan(BigDecimal price) {
         products.forEach(product -> {
             if (product.getPrice().compareTo(price) > 0) {
                 failWithMessage("The price should be bigger than " + price);
             }
         });
-        return this;
     }
 }
