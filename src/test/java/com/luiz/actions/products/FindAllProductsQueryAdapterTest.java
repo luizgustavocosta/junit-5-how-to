@@ -56,7 +56,8 @@ class FindAllProductsQueryAdapterTest {
     void execute() {
         when(service.findAll()).thenReturn(ProductTestBuilder.anListOfProduct());
         final List<Product> products = adapter.execute(new FindAllProductsQuery());
-        ProductListAssert.assertThat(products).hasPriceBiggerThan(BigDecimal.TEN);
+
+        ProductListAssert.assertThat(products).allAttributes();
 
         when(service.findAll()).thenReturn(Collections.singletonList(ProductTestBuilder.anExpensiveProduct()));
         final List<Product> newProducts = adapter.execute(new FindAllProductsQuery());

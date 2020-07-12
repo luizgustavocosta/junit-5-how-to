@@ -6,6 +6,9 @@ import org.assertj.core.api.AbstractAssert;
 import java.math.BigDecimal;
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 /**
  * The type Product list assert.
  */
@@ -55,6 +58,14 @@ public class ProductListAssert extends AbstractAssert<ProductListAssert, List<Pr
         products.forEach(product -> {
             if (product.getPrice().compareTo(price) > 0) {
                 failWithMessage("The price should be bigger than " + price);
+            }
+        });
+    }
+
+    public void allAttributes() {
+        assertAll(() -> {
+            for (Product product : products) {
+                assertNotNull(product.getTitle(), "The title should be something written");
             }
         });
     }

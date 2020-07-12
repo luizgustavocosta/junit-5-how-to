@@ -2,6 +2,7 @@ package com.luiz.domain.model;
 
 import com.luiz.parser.CsvToProduct;
 import com.luiz.parser.ProductAggregator;
+import com.luiz.support.assertion.ProductAssert;
 import com.luiz.support.builder.ProductTestBuilder;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
