@@ -1,0 +1,72 @@
+{
+  "uid" : "456797545f5b748f",
+  "name" : "[1] 1, PLAYSTATION 1, 100.19",
+  "fullName" : "com.luiz.domain.model.ProductServiceTest.receiveProductsFromCSV",
+  "historyId" : "4581e62c3fd557a4e7904c2952ce174f",
+  "time" : {
+    "start" : 1613904932006,
+    "stop" : 1613904932007,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613904930645,
+      "stop" : 1613904931499,
+      "duration" : 854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az99-890"
+  }, {
+    "name" : "thread",
+    "value" : "3026@fv-az99-890.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.domain.model.ProductServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.domain.model.ProductServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "receiveProductsFromCSV"
+  }, {
+    "name" : "suite",
+    "value" : "Product Service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "456797545f5b748f.json",
+  "parameterValues" : [ ]
+}

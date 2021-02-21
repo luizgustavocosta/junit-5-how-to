@@ -1,0 +1,72 @@
+{
+  "uid" : "d4453cb9017228a6",
+  "name" : "Product Adapter communicates with Service",
+  "fullName" : "com.luiz.actions.products.AddProductCommandAdapterShould.execute",
+  "historyId" : "e7a5fbefed42c018a8fcef62ceade3cd",
+  "time" : {
+    "start" : 1613904932114,
+    "stop" : 1613904932197,
+    "duration" : 83
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613904932188,
+      "stop" : 1613904932188,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az99-890"
+  }, {
+    "name" : "thread",
+    "value" : "3026@fv-az99-890.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.actions.products.AddProductCommandAdapterShould"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.actions.products.AddProductCommandAdapterShould"
+  }, {
+    "name" : "testMethod",
+    "value" : "execute"
+  }, {
+    "name" : "suite",
+    "value" : "com.luiz.actions.products.AddProductCommandAdapterShould"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4453cb9017228a6.json",
+  "parameterValues" : [ ]
+}

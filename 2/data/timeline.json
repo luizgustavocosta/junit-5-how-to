@@ -1,0 +1,403 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az99-890",
+    "children" : [ {
+      "name" : "3026@fv-az99-890.ForkJoinPool-1-worker-1(11)",
+      "children" : [ {
+        "name" : "[6] 6, MARIO BROS. FRANCHISE, 250",
+        "uid" : "1579cb985b0878c3",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932043,
+          "stop" : 1613904932044,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[10] 10, RUBIK’S CUBE, 30.1",
+        "uid" : "d332ef7a2a621a46",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932072,
+          "stop" : 1613904932072,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[10] 10, RUBIK’S CUBE, 30.1",
+        "uid" : "db6fe2d23bc62a9e",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931983,
+          "stop" : 1613904931985,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[1] 1, PLAYSTATION 1, 100.19",
+        "uid" : "456797545f5b748f",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932006,
+          "stop" : 1613904932007,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[3] 3, COROLLA, 20001",
+        "uid" : "f6a2aaf63497889",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931930,
+          "stop" : 1613904931931,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[7] 7, MICHAEL JACKSON’S THRILLER, 20.99",
+        "uid" : "b6934fb05f07d468",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932049,
+          "stop" : 1613904932051,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Product Adapter communicates with Service",
+        "uid" : "d4453cb9017228a6",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932114,
+          "stop" : 1613904932197,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[1] 1, PLAYSTATION 1, 100.19",
+        "uid" : "50b62f3bdb976c09",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931877,
+          "stop" : 1613904931903,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[7] 7, MICHAEL JACKSON’S THRILLER, 20.99",
+        "uid" : "79a0b3eb36b78486",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931961,
+          "stop" : 1613904931962,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Find all products using service",
+        "uid" : "6de36f66fff49924",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931605,
+          "stop" : 1613904931638,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Find all products",
+        "uid" : "8f8dabdb8ef323c7",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932923,
+          "stop" : 1613904932983,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] 2, LIPITOR, 30.2",
+        "uid" : "8457a131637b35bc",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932010,
+          "stop" : 1613904932013,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new product using service",
+        "uid" : "aaa30ee5560725fb",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931990,
+          "stop" : 1613904931997,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[8] 8, HARRY POTTER, 15.0",
+        "uid" : "e2fa957a0c1332a7",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931968,
+          "stop" : 1613904931972,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] 4, STAR WARS, 10",
+        "uid" : "25634c71cd9dedc7",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932027,
+          "stop" : 1613904932028,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[5] 5, IPAD, 100",
+        "uid" : "b99d8a62955ee172",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931947,
+          "stop" : 1613904931948,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[8] 8, HARRY POTTER, 15.0",
+        "uid" : "7919bb422c8bdd97",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932060,
+          "stop" : 1613904932061,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[5] 5, IPAD, 100",
+        "uid" : "f2633513eed2f5ac",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932039,
+          "stop" : 1613904932040,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[6] 6, MARIO BROS. FRANCHISE, 250",
+        "uid" : "9257ff98eae4f7b0",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931953,
+          "stop" : 1613904931956,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[9] 9, IPHONE, 300.2",
+        "uid" : "dec7fb978bd8a79f",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931978,
+          "stop" : 1613904931979,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new product by CLI",
+        "uid" : "b021bf7b12a778fb",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904933014,
+          "stop" : 1613904933040,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "onlyForJava9And10()",
+        "uid" : "6bf133ee1f5d57fa",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1613904932217,
+          "stop" : 1613904932217,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[3] 3, COROLLA, 20001",
+        "uid" : "6c660ee93f95da02",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932016,
+          "stop" : 1613904932017,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Default",
+        "uid" : "2fb68a841a583107",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904936458,
+          "stop" : 1613904936562,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Product Query Adapter communicates with Service",
+        "uid" : "dc79709b61e5aa6a",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932225,
+          "stop" : 1613904932277,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[9] 9, IPHONE, 300.2",
+        "uid" : "75d41956db177fd3",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904932066,
+          "stop" : 1613904932067,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Fill all products",
+        "uid" : "33cd1ef72508df38",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904936574,
+          "stop" : 1613904936596,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] 2, LIPITOR, 30.2",
+        "uid" : "43d389dd15ffddae",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931920,
+          "stop" : 1613904931921,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new product",
+        "uid" : "79354f4420474333",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904936602,
+          "stop" : 1613904936705,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] 4, STAR WARS, 10",
+        "uid" : "1ce864948df6aaad",
+        "parentUid" : "dbc85ce70e8512b5be4edda4d20a647c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931939,
+          "stop" : 1613904931941,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbc85ce70e8512b5be4edda4d20a647c"
+    } ],
+    "uid" : "05ece192f45021b594520ab2030659b7"
+  } ],
+  "name" : "timeline"
+}

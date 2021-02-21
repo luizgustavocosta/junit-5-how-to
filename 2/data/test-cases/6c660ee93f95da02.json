@@ -1,0 +1,72 @@
+{
+  "uid" : "6c660ee93f95da02",
+  "name" : "[3] 3, COROLLA, 20001",
+  "fullName" : "com.luiz.domain.model.ProductServiceTest.receiveProductsFromCSV",
+  "historyId" : "42648eed8f95d8559c29ed4308daedbf",
+  "time" : {
+    "start" : 1613904932016,
+    "stop" : 1613904932017,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613904930645,
+      "stop" : 1613904931499,
+      "duration" : 854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az99-890"
+  }, {
+    "name" : "thread",
+    "value" : "3026@fv-az99-890.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.domain.model.ProductServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.domain.model.ProductServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "receiveProductsFromCSV"
+  }, {
+    "name" : "suite",
+    "value" : "Product Service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c660ee93f95da02.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "33cd1ef72508df38",
+  "name" : "Fill all products",
+  "fullName" : "com.luiz.actions.client.ProductControllerShould.findAll",
+  "historyId" : "66c3721d762830b445c93e3b0bdfeac",
+  "time" : {
+    "start" : 1613904936574,
+    "stop" : 1613904936596,
+    "duration" : 22
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az99-890"
+  }, {
+    "name" : "thread",
+    "value" : "3026@fv-az99-890.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.actions.client.ProductControllerShould"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.actions.client.ProductControllerShould"
+  }, {
+    "name" : "testMethod",
+    "value" : "findAll"
+  }, {
+    "name" : "suite",
+    "value" : "Product Controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33cd1ef72508df38.json",
+  "parameterValues" : [ ]
+}
