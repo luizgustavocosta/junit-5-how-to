@@ -1,0 +1,137 @@
+{
+  "uid" : "7bc7335686270d64",
+  "name" : "[10] 10, RUBIK’S CUBE, 30.1",
+  "fullName" : "com.luiz.domain.model.ProductServiceTest.receiveProductsFromCSVUsingAggregator",
+  "historyId" : "d5bed661fa09e9000d2d6df0bd25ab0",
+  "time" : {
+    "start" : 1613942513977,
+    "stop" : 1613942513978,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613942512700,
+      "stop" : 1613942513544,
+      "duration" : 844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az59-575"
+  }, {
+    "name" : "thread",
+    "value" : "3027@fv-az59-575.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.domain.model.ProductServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.domain.model.ProductServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "receiveProductsFromCSVUsingAggregator"
+  }, {
+    "name" : "suite",
+    "value" : "Product Service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "f607bd67dac30e6e",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/7//#testresult/f607bd67dac30e6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310760,
+          "stop" : 1613942310761,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "78f502323a25d2d8",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/6//#testresult/78f502323a25d2d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613929399434,
+          "stop" : 1613929399435,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a586d2b72e7a037",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/5//#testresult/a586d2b72e7a037",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613905865073,
+          "stop" : 1613905865074,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "808c0bd25e317a53",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/4//#testresult/808c0bd25e317a53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613905629112,
+          "stop" : 1613905629114,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d068c4bdd859d56a",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/3//#testresult/d068c4bdd859d56a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613905398440,
+          "stop" : 1613905398442,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "db6fe2d23bc62a9e",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/2//#testresult/db6fe2d23bc62a9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904931983,
+          "stop" : 1613904931985,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7bc7335686270d64.json",
+  "parameterValues" : [ ]
+}
