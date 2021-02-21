@@ -17,8 +17,7 @@ import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
 
-import static org.junit.jupiter.api.condition.JRE.JAVA_10;
-import static org.junit.jupiter.api.condition.JRE.JAVA_9;
+import static org.junit.jupiter.api.condition.JRE.*;
 import static org.mockito.Mockito.when;
 
 /**
@@ -72,5 +71,11 @@ class FindAllProductsQueryAdapterTest {
     @EnabledOnJre({JAVA_9, JAVA_10})
     void onlyForJava9And10() {
         System.out.println("Running in a version 9 or 10");
+    }
+
+    @Test
+    @EnabledOnJre({JAVA_8})
+    void onlyForJava8() {
+        System.out.println("Running in a version 8");
     }
 }
