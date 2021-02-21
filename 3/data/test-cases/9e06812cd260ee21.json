@@ -1,0 +1,92 @@
+{
+  "uid" : "9e06812cd260ee21",
+  "name" : "Add new product by CLI",
+  "fullName" : "com.luiz.actions.client.ProductCLITest.add",
+  "historyId" : "ac795e46154ebe1039e9421787122984",
+  "time" : {
+    "start" : 1613905399403,
+    "stop" : 1613905399407,
+    "duration" : 4
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613905399404,
+      "stop" : 1613905399404,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az99-890"
+  }, {
+    "name" : "thread",
+    "value" : "3017@fv-az99-890.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.actions.client.ProductCLITest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.actions.client.ProductCLITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "add"
+  }, {
+    "name" : "suite",
+    "value" : "Client by Command Line Interface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b021bf7b12a778fb",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/2//#testresult/b021bf7b12a778fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904933014,
+          "stop" : 1613904933040,
+          "duration" : 26
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9e06812cd260ee21.json",
+  "parameterValues" : [ ]
+}

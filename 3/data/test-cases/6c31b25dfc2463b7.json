@@ -1,0 +1,77 @@
+{
+  "uid" : "6c31b25dfc2463b7",
+  "name" : "Default",
+  "fullName" : "com.luiz.actions.client.ProductControllerShould.sayHello",
+  "historyId" : "ce0d10902b6c751374dc3c047118fa2d",
+  "time" : {
+    "start" : 1613905402272,
+    "stop" : 1613905402370,
+    "duration" : 98
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az99-890"
+  }, {
+    "name" : "thread",
+    "value" : "3017@fv-az99-890.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.actions.client.ProductControllerShould"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.actions.client.ProductControllerShould"
+  }, {
+    "name" : "testMethod",
+    "value" : "sayHello"
+  }, {
+    "name" : "suite",
+    "value" : "Product Controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2fb68a841a583107",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/2//#testresult/2fb68a841a583107",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613904936458,
+          "stop" : 1613904936562,
+          "duration" : 104
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6c31b25dfc2463b7.json",
+  "parameterValues" : [ ]
+}
