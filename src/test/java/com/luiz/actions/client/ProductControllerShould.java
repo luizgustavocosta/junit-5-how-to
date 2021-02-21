@@ -43,7 +43,7 @@ class ProductControllerShould {
     @DisplayName("Default")
     public void sayHello() throws Exception {
         this.mockMvc.perform(get("/")).andDo(print())
-                .andExpect(status().isOk()) ;
+                .andExpect(status().isOk());
     }
 
     /**

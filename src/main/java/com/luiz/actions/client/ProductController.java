@@ -38,7 +38,8 @@ public class ProductController implements ProductClient {
      * @return the string
      */
     @RequestMapping("/")
-    @ResponseBody String hello() {
+    @ResponseBody
+    String hello() {
         return "Hello there!";
     }
 

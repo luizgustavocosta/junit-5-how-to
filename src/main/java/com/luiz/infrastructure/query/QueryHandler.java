@@ -45,7 +45,7 @@ public class QueryHandler {
         // FIXME - Extract to a common class as Command/Query
         for (Class<Query> commandHandlerClass : queries) {
             for (AnnotatedType annotatedInterface : commandHandlerClass.getAnnotatedInterfaces()) {
-                if (annotatedInterface.getType().getTypeName().split("<*, ")[1].replace(">","")
+                if (annotatedInterface.getType().getTypeName().split("<*, ")[1].replace(">", "")
                         .equals(query.getClass().getName())) {
                     try {
                         final Method execute = commandHandlerClass.getDeclaredMethod("execute", query.getClass());

@@ -69,7 +69,7 @@ class FindAllProductsQueryAdapterTest {
      * What is your jre.
      */
     @Test
-    @EnabledOnJre({ JAVA_9, JAVA_10 })
+    @EnabledOnJre({JAVA_9, JAVA_10})
     void onlyForJava9And10() {
         System.out.println("Running in a version 9 or 10");
     }

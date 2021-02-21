@@ -29,7 +29,7 @@ public interface ProductClient {
      * @return the list
      */
     default List<ProductResponse> transform(List<Product> product) {
-         return product.stream().map(this::transform).collect(Collectors.toList());
+        return product.stream().map(this::transform).collect(Collectors.toList());
     }
 
     /**

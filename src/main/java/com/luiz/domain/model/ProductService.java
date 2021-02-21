@@ -39,7 +39,7 @@ public class ProductService {
                 .withPrice(price)
                 .build());
         final List<Product> products = repository.findAll();
-        return products.get(products.size()-1);
+        return products.get(products.size() - 1);
     }
 
     /**

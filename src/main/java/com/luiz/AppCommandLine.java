@@ -29,14 +29,14 @@ public class AppCommandLine implements CommandLineRunner {
         buildMenu();
         String command = "";
         final ProductCLI productCLI = context.getBean(ProductCLI.class);
-        while(!command.equals("exit")) {
+        while (!command.equals("exit")) {
             command = scanner.next();
             switch (command) {
-                case "1" :
+                case "1":
                     productCLI.add(randomName(), randomPrice());
                     buildMenu();
                     break;
-                case "2" :
+                case "2":
                     productCLI.findAll().forEach(System.out::println);
                     buildMenu();
                     break;
@@ -53,7 +53,7 @@ public class AppCommandLine implements CommandLineRunner {
      * @return the string
      */
     String randomPrice() {
-        return Arrays.asList(1,2,3,4,5,6,7,8,9,10)
+        return Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
                 .get(new Random().nextInt(10))
                 .toString();
     }

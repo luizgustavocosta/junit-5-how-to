@@ -45,7 +45,7 @@ public class CommandHandler {
         // FIXME - Extract to a common class
         for (Class<CommandAdapter> commandHandlerClass : commands) {
             for (AnnotatedType annotatedInterface : commandHandlerClass.getAnnotatedInterfaces()) {
-                if (annotatedInterface.getType().getTypeName().split("<*, ")[1].replace(">","")
+                if (annotatedInterface.getType().getTypeName().split("<*, ")[1].replace(">", "")
                         .equals(command.getClass().getName())) {
                     try {
                         final Method execute = commandHandlerClass.getDeclaredMethod("execute", command.getClass());

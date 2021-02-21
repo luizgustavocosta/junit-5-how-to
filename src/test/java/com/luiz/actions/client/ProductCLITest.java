@@ -26,16 +26,14 @@ import static org.mockito.Mockito.*;
 @ExtendWith(SpringExtension.class)
 class ProductCLITest {
 
-    @Mock
-    private CommandHandler commandHandler;
-
-    @Mock
-    private QueryHandler queryHandler;
-
     /**
      * The Product cli.
      */
     ProductCLI productCLI;
+    @Mock
+    private CommandHandler commandHandler;
+    @Mock
+    private QueryHandler queryHandler;
 
     /**
      * Sets up.
