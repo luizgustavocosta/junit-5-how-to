@@ -1,0 +1,431 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.luiz",
+    "children" : [ {
+      "name" : "domain.model.ProductServiceTest",
+      "children" : [ {
+        "name" : "findAll",
+        "uid" : "42e63be95109b62b",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310416,
+          "stop" : 1613942310448,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "3d677bf36860f38b",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310669,
+          "stop" : 1613942310697,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "230e202a170fae2f",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310710,
+          "stop" : 1613942310712,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "f21bd028ca519f9a",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310723,
+          "stop" : 1613942310724,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "9d2f77825c09774",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310731,
+          "stop" : 1613942310733,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "f7d554067af1adc0",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310738,
+          "stop" : 1613942310739,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "345c6a37f62d92a6",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310746,
+          "stop" : 1613942310747,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "21fc6723b3124c1b",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310751,
+          "stop" : 1613942310751,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "8149238c2ee72dad",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310754,
+          "stop" : 1613942310755,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "9c3b0267be1eca08",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310757,
+          "stop" : 1613942310758,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSVUsingAggregator",
+        "uid" : "f607bd67dac30e6e",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310760,
+          "stop" : 1613942310761,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add",
+        "uid" : "16a4b529df69b27b",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310764,
+          "stop" : 1613942310771,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "c34d6ad967c7d9d1",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310777,
+          "stop" : 1613942310779,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "8899cf2cc9f5a6a7",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310781,
+          "stop" : 1613942310782,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "38d9ad1c0798f771",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310784,
+          "stop" : 1613942310785,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "17d6fbd971054c47",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310789,
+          "stop" : 1613942310790,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "1dd72ba6405d1075",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310798,
+          "stop" : 1613942310799,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "9886eceb0595ee2e",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310803,
+          "stop" : 1613942310804,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "3a58fec30947e192",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310809,
+          "stop" : 1613942310810,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "655600bbe1bee53",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310815,
+          "stop" : 1613942310815,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "c7de871b22e3be7a",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310821,
+          "stop" : 1613942310822,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "receiveProductsFromCSV",
+        "uid" : "10919eace3894733",
+        "parentUid" : "fd40ca897f1cad7eab33aab7c951ae00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310827,
+          "stop" : 1613942310827,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "domain.model.ProductServiceTest"
+    }, {
+      "name" : "actions",
+      "children" : [ {
+        "name" : "products",
+        "children" : [ {
+          "name" : "AddProductCommandAdapterShould",
+          "children" : [ {
+            "name" : "execute",
+            "uid" : "6ddaf705f7d4ff91",
+            "parentUid" : "6722ac285825e31d90b08fbd930df080",
+            "status" : "passed",
+            "time" : {
+              "start" : 1613942310864,
+              "stop" : 1613942310935,
+              "duration" : 71
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          } ],
+          "uid" : "6722ac285825e31d90b08fbd930df080"
+        }, {
+          "name" : "FindAllProductsQueryAdapterTest",
+          "children" : [ {
+            "name" : "onlyForJava9And10",
+            "uid" : "af17ba28ffad9fba",
+            "parentUid" : "27693093d28daca42e92aac67dacca4c",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1613942310947,
+              "stop" : 1613942310947,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          }, {
+            "name" : "execute",
+            "uid" : "4ca2d19b149c7dce",
+            "parentUid" : "27693093d28daca42e92aac67dacca4c",
+            "status" : "passed",
+            "time" : {
+              "start" : 1613942310951,
+              "stop" : 1613942310996,
+              "duration" : 45
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          } ],
+          "uid" : "27693093d28daca42e92aac67dacca4c"
+        } ],
+        "uid" : "31eb7057e2e76b7cc6e6ddc46dc6ffbb"
+      }, {
+        "name" : "client",
+        "children" : [ {
+          "name" : "ProductCLITest",
+          "children" : [ {
+            "name" : "findAll",
+            "uid" : "5cf4fda05f9ce8a2",
+            "parentUid" : "25447c8e3ec8498132bb33f39e667cef",
+            "status" : "passed",
+            "time" : {
+              "start" : 1613942311654,
+              "stop" : 1613942311700,
+              "duration" : 46
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          }, {
+            "name" : "add",
+            "uid" : "ce82e5c872454297",
+            "parentUid" : "25447c8e3ec8498132bb33f39e667cef",
+            "status" : "passed",
+            "time" : {
+              "start" : 1613942311718,
+              "stop" : 1613942311749,
+              "duration" : 31
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          } ],
+          "uid" : "25447c8e3ec8498132bb33f39e667cef"
+        }, {
+          "name" : "ProductControllerShould",
+          "children" : [ {
+            "name" : "sayHello",
+            "uid" : "a593e4837ef07acf",
+            "parentUid" : "7fd77ed0885942bb872a301b7b8eae1a",
+            "status" : "passed",
+            "time" : {
+              "start" : 1613942314986,
+              "stop" : 1613942315093,
+              "duration" : 107
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          }, {
+            "name" : "findAll",
+            "uid" : "9ff7926c18d69437",
+            "parentUid" : "7fd77ed0885942bb872a301b7b8eae1a",
+            "status" : "passed",
+            "time" : {
+              "start" : 1613942315101,
+              "stop" : 1613942315117,
+              "duration" : 16
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          }, {
+            "name" : "addNewProduct",
+            "uid" : "6cc6d2832bbecd77",
+            "parentUid" : "7fd77ed0885942bb872a301b7b8eae1a",
+            "status" : "passed",
+            "time" : {
+              "start" : 1613942315123,
+              "stop" : 1613942315229,
+              "duration" : 106
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ ]
+          } ],
+          "uid" : "7fd77ed0885942bb872a301b7b8eae1a"
+        } ],
+        "uid" : "83ac9b97b498f7c61eec0e6be5d0b4a9"
+      } ],
+      "uid" : "b0019dbfd0638e746023ff8df34a589e"
+    } ],
+    "uid" : "com.luiz"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,403 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az92-641",
+    "children" : [ {
+      "name" : "3005@fv-az92-641.ForkJoinPool-1-worker-1(11)",
+      "children" : [ {
+        "name" : "Product Adapter communicates with Service",
+        "uid" : "6ddaf705f7d4ff91",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310864,
+          "stop" : 1613942310935,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new product using service",
+        "uid" : "16a4b529df69b27b",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310764,
+          "stop" : 1613942310771,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[7] 7, MICHAEL JACKSON’S THRILLER, 20.99",
+        "uid" : "21fc6723b3124c1b",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310751,
+          "stop" : 1613942310751,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[8] 8, HARRY POTTER, 15.0",
+        "uid" : "8149238c2ee72dad",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310754,
+          "stop" : 1613942310755,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[9] 9, IPHONE, 300.2",
+        "uid" : "c7de871b22e3be7a",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310821,
+          "stop" : 1613942310822,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[6] 6, MARIO BROS. FRANCHISE, 250",
+        "uid" : "345c6a37f62d92a6",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310746,
+          "stop" : 1613942310747,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[7] 7, MICHAEL JACKSON’S THRILLER, 20.99",
+        "uid" : "3a58fec30947e192",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310809,
+          "stop" : 1613942310810,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[5] 5, IPAD, 100",
+        "uid" : "f7d554067af1adc0",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310738,
+          "stop" : 1613942310739,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] 4, STAR WARS, 10",
+        "uid" : "17d6fbd971054c47",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310789,
+          "stop" : 1613942310790,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[3] 3, COROLLA, 20001",
+        "uid" : "f21bd028ca519f9a",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310723,
+          "stop" : 1613942310724,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "onlyForJava9And10()",
+        "uid" : "af17ba28ffad9fba",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1613942310947,
+          "stop" : 1613942310947,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] 4, STAR WARS, 10",
+        "uid" : "9d2f77825c09774",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310731,
+          "stop" : 1613942310733,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[5] 5, IPAD, 100",
+        "uid" : "1dd72ba6405d1075",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310798,
+          "stop" : 1613942310799,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new product by CLI",
+        "uid" : "ce82e5c872454297",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942311718,
+          "stop" : 1613942311749,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[1] 1, PLAYSTATION 1, 100.19",
+        "uid" : "3d677bf36860f38b",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310669,
+          "stop" : 1613942310697,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[3] 3, COROLLA, 20001",
+        "uid" : "38d9ad1c0798f771",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310784,
+          "stop" : 1613942310785,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[1] 1, PLAYSTATION 1, 100.19",
+        "uid" : "c34d6ad967c7d9d1",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310777,
+          "stop" : 1613942310779,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[9] 9, IPHONE, 300.2",
+        "uid" : "9c3b0267be1eca08",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310757,
+          "stop" : 1613942310758,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Default",
+        "uid" : "a593e4837ef07acf",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942314986,
+          "stop" : 1613942315093,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] 2, LIPITOR, 30.2",
+        "uid" : "230e202a170fae2f",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310710,
+          "stop" : 1613942310712,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Find all products using service",
+        "uid" : "42e63be95109b62b",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310416,
+          "stop" : 1613942310448,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Product Query Adapter communicates with Service",
+        "uid" : "4ca2d19b149c7dce",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310951,
+          "stop" : 1613942310996,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[6] 6, MARIO BROS. FRANCHISE, 250",
+        "uid" : "9886eceb0595ee2e",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310803,
+          "stop" : 1613942310804,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[8] 8, HARRY POTTER, 15.0",
+        "uid" : "655600bbe1bee53",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310815,
+          "stop" : 1613942310815,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Find all products",
+        "uid" : "5cf4fda05f9ce8a2",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942311654,
+          "stop" : 1613942311700,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new product",
+        "uid" : "6cc6d2832bbecd77",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942315123,
+          "stop" : 1613942315229,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[10] 10, RUBIK’S CUBE, 30.1",
+        "uid" : "f607bd67dac30e6e",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310760,
+          "stop" : 1613942310761,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] 2, LIPITOR, 30.2",
+        "uid" : "8899cf2cc9f5a6a7",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310781,
+          "stop" : 1613942310782,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[10] 10, RUBIK’S CUBE, 30.1",
+        "uid" : "10919eace3894733",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942310827,
+          "stop" : 1613942310827,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Fill all products",
+        "uid" : "9ff7926c18d69437",
+        "parentUid" : "d92c356f17e76ddfd01bd9ce43d37e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613942315101,
+          "stop" : 1613942315117,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d92c356f17e76ddfd01bd9ce43d37e25"
+    } ],
+    "uid" : "45bd63ebb9be630549f907d8632509c9"
+  } ],
+  "name" : "timeline"
+}
