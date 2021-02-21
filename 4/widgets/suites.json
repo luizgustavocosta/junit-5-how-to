@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "e215e129e96be146a63c36e27d21bdb7",
+    "name" : "Product Service",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "92b0c58665f756136a2ad99d9bf8adcd",
+    "name" : "Product Controller",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c11d1f49ec68e47ef8e9ef64f6c2d9d0",
+    "name" : "Client by Command Line Interface",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "361dad6275b996dc87e68694f41b4a02",
+    "name" : "FindAllProductsQueryAdapterTest - Another way to inject mock",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a4f910bce278e961f13bd3b8782c04a8",
+    "name" : "com.luiz.actions.products.AddProductCommandAdapterShould",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
