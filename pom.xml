@@ -28,6 +28,8 @@
         <spring.framework.version>5.1.8.RELEASE</spring.framework.version>
         <spring.maven.plugin.version>1.4.2.RELEASE</spring.maven.plugin.version>
         <reflections.version>0.9.10</reflections.version>
+        <aspectj.version>1.9.4</aspectj.version>
+        <allure.version>2.13.6</allure.version>
     </properties>
 
     <dependencies>
@@ -108,6 +110,17 @@
                         <include>**Test**.java</include>
                         <include>**Should.java</include>
                     </includes>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <argLine>
+                        -Dfile.encoding=UTF-8
+                        -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                    </argLine>
+                    <systemPropertyVariables>
+                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                        <junit.jupiter.extensions.autodetection.enabled>true</junit.jupiter.extensions.autodetection.enabled>
+                        <junit.jupiter.execution.parallel.enabled>true</junit.jupiter.execution.parallel.enabled>
+                        <junit.jupiter.execution.parallel.config.strategy>dynamic</junit.jupiter.execution.parallel.config.strategy>
+                    </systemPropertyVariables>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -120,7 +133,21 @@
                         <artifactId>junit-jupiter-engine</artifactId>
                         <version>${junit.jupiter.version}</version>
                     </dependency>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <reportVersion>${allure.version}</reportVersion>
+                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
