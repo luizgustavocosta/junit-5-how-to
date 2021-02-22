@@ -1,8 +1,5 @@
 
-![Java CI with Maven](https://github.com/luizgustavocosta/junit-5-how-to/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
-
-
-[![Travis CI - Build Status](https://travis-ci.org/luizgustavocosta/junit-5-how-to.svg?branch=master)](https://travis-ci.org/luizgustavocosta/junit-5-how-to)
+![GitHub CI](https://github.com/luizgustavocosta/junit-5-how-to/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
 
 [![codecov](https://codecov.io/gh/luizgustavocosta/junit-5-how-to/branch/master/graph/badge.svg)](https://codecov.io/gh/luizgustavocosta/junit-5-how-to)
 
