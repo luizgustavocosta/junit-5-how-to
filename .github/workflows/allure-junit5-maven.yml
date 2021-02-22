@@ -57,9 +57,13 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 
+      - name: Cobertura
+        if: always()
+        run: mvn cobertura:cobertura
+        continue-on-error: true
+
       - uses: codecov/codecov-action@v1.0.6
         with:
           flags: unittests # optional
           name: codecov-umbrella # optional
           fail_ci_if_error: false # optional (default = false)
-          verbose: false # optional (default = false)
