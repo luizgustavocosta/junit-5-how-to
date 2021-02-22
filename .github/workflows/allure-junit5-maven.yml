@@ -62,7 +62,7 @@ jobs:
         run: mvn cobertura:cobertura
         continue-on-error: true
 
-      - uses: codecov/codecov-action@v1.0.6
+      - uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: unittests # optional
