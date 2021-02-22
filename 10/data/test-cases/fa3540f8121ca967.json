@@ -1,0 +1,164 @@
+{
+  "uid" : "fa3540f8121ca967",
+  "name" : "onlyForJava9And10()",
+  "fullName" : "com.luiz.actions.products.FindAllProductsQueryAdapterTest.onlyForJava9And10",
+  "historyId" : "c1170e5abe7252eb8345df33db6ad87e",
+  "time" : {
+    "start" : 1614017106388,
+    "stop" : 1614017106388,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "Disabled on JRE version: 1.8.0_282",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614017106383,
+      "stop" : 1614017106384,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az99-135"
+  }, {
+    "name" : "thread",
+    "value" : "2929@fv-az99-135.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.actions.products.FindAllProductsQueryAdapterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.actions.products.FindAllProductsQueryAdapterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "onlyForJava9And10"
+  }, {
+    "name" : "suite",
+    "value" : "FindAllProductsQueryAdapterTest - Another way to inject mock"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 9,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "1c741d72db351bcc",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/9//#testresult/1c741d72db351bcc",
+        "status" : "skipped",
+        "statusDetails" : "Disabled on JRE version: 1.8.0_282",
+        "time" : {
+          "start" : 1613943680320,
+          "stop" : 1613943680320,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "34bbe4e18b0946e9",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/8//#testresult/34bbe4e18b0946e9",
+        "status" : "skipped",
+        "statusDetails" : "Disabled on JRE version: 1.8.0_282",
+        "time" : {
+          "start" : 1613942514148,
+          "stop" : 1613942514148,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "af17ba28ffad9fba",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/7//#testresult/af17ba28ffad9fba",
+        "status" : "skipped",
+        "statusDetails" : "Disabled on JRE version: 1.8.0_282",
+        "time" : {
+          "start" : 1613942310947,
+          "stop" : 1613942310947,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fa70ed58e5cee96c",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/6//#testresult/fa70ed58e5cee96c",
+        "status" : "skipped",
+        "statusDetails" : "Disabled on JRE version: 1.8.0_282",
+        "time" : {
+          "start" : 1613929399540,
+          "stop" : 1613929399540,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c4c7c8697a3f52bf",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/5//#testresult/c4c7c8697a3f52bf",
+        "status" : "skipped",
+        "statusDetails" : "Disabled on JRE version: 1.8.0_282",
+        "time" : {
+          "start" : 1613905865237,
+          "stop" : 1613905865237,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "617fbbcdf06561d5",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/4//#testresult/617fbbcdf06561d5",
+        "status" : "skipped",
+        "statusDetails" : "Disabled on JRE version: 1.8.0_282",
+        "time" : {
+          "start" : 1613905629322,
+          "stop" : 1613905629322,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "45f8722b5ee7238",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/3//#testresult/45f8722b5ee7238",
+        "status" : "skipped",
+        "statusDetails" : "Disabled on JRE version: 1.8.0_282",
+        "time" : {
+          "start" : 1613905398640,
+          "stop" : 1613905398640,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6bf133ee1f5d57fa",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/2//#testresult/6bf133ee1f5d57fa",
+        "status" : "skipped",
+        "statusDetails" : "Disabled on JRE version: 1.8.0_282",
+        "time" : {
+          "start" : 1613904932217,
+          "stop" : 1613904932217,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fa3540f8121ca967.json",
+  "parameterValues" : [ ]
+}

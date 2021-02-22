@@ -1,0 +1,311 @@
+[ {
+  "uid" : "ccdbd5f6b72e0828",
+  "name" : "[9] 9, IPHONE, 300.2",
+  "time" : {
+    "start" : 1614017106178,
+    "stop" : 1614017106178,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f491703f7e77a170",
+  "name" : "[9] 9, IPHONE, 300.2",
+  "time" : {
+    "start" : 1614017106257,
+    "stop" : 1614017106260,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1036f01e2e2b969",
+  "name" : "[7] 7, MICHAEL JACKSON’S THRILLER, 20.99",
+  "time" : {
+    "start" : 1614017106243,
+    "stop" : 1614017106245,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f984d0d096bc135d",
+  "name" : "[3] 3, COROLLA, 20001",
+  "time" : {
+    "start" : 1614017106157,
+    "stop" : 1614017106157,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a51facde7742561",
+  "name" : "Fill all products",
+  "time" : {
+    "start" : 1614017110433,
+    "stop" : 1614017110448,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86d6e60407f1e164",
+  "name" : "Product Query Adapter communicates with Service",
+  "time" : {
+    "start" : 1614017106397,
+    "stop" : 1614017106439,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9466c3ff0029895b",
+  "name" : "[10] 10, RUBIK’S CUBE, 30.1",
+  "time" : {
+    "start" : 1614017106264,
+    "stop" : 1614017106265,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce2578b117fcb4c0",
+  "name" : "Find all products using service",
+  "time" : {
+    "start" : 1614017105844,
+    "stop" : 1614017105879,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9031f7ce297222d",
+  "name" : "[4] 4, STAR WARS, 10",
+  "time" : {
+    "start" : 1614017106161,
+    "stop" : 1614017106161,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bc3399a560d4c65",
+  "name" : "[2] 2, LIPITOR, 30.2",
+  "time" : {
+    "start" : 1614017106152,
+    "stop" : 1614017106153,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd382010263e2d3c",
+  "name" : "Add new product by CLI",
+  "time" : {
+    "start" : 1614017107119,
+    "stop" : 1614017107129,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f57da9ac1f20367b",
+  "name" : "[5] 5, IPAD, 100",
+  "time" : {
+    "start" : 1614017106164,
+    "stop" : 1614017106165,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f0de96ff68ea8fc",
+  "name" : "Default",
+  "time" : {
+    "start" : 1614017110331,
+    "stop" : 1614017110425,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0f7139a47b29b4e",
+  "name" : "Add new product",
+  "time" : {
+    "start" : 1614017110453,
+    "stop" : 1614017110547,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd678cc8a8da8590",
+  "name" : "[2] 2, LIPITOR, 30.2",
+  "time" : {
+    "start" : 1614017106207,
+    "stop" : 1614017106208,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bfcf3e24444a752",
+  "name" : "[8] 8, HARRY POTTER, 15.0",
+  "time" : {
+    "start" : 1614017106174,
+    "stop" : 1614017106175,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e592dfbdac207b7a",
+  "name" : "[7] 7, MICHAEL JACKSON’S THRILLER, 20.99",
+  "time" : {
+    "start" : 1614017106171,
+    "stop" : 1614017106171,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa3540f8121ca967",
+  "name" : "onlyForJava9And10()",
+  "time" : {
+    "start" : 1614017106388,
+    "stop" : 1614017106388,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "faba64ad4d919bb3",
+  "name" : "[3] 3, COROLLA, 20001",
+  "time" : {
+    "start" : 1614017106210,
+    "stop" : 1614017106212,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ebf94bcf8dea260",
+  "name" : "[6] 6, MARIO BROS. FRANCHISE, 250",
+  "time" : {
+    "start" : 1614017106167,
+    "stop" : 1614017106168,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ad69ee8604e3d32",
+  "name" : "onlyForJava8()",
+  "time" : {
+    "start" : 1614017106391,
+    "stop" : 1614017106392,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "161bc104348c992a",
+  "name" : "[8] 8, HARRY POTTER, 15.0",
+  "time" : {
+    "start" : 1614017106252,
+    "stop" : 1614017106253,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a3dd5d866d8634f",
+  "name" : "[6] 6, MARIO BROS. FRANCHISE, 250",
+  "time" : {
+    "start" : 1614017106237,
+    "stop" : 1614017106239,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bff82686d78b9e4",
+  "name" : "[1] 1, PLAYSTATION 1, 100.19",
+  "time" : {
+    "start" : 1614017106204,
+    "stop" : 1614017106205,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "334c03475d6c3863",
+  "name" : "[10] 10, RUBIK’S CUBE, 30.1",
+  "time" : {
+    "start" : 1614017106181,
+    "stop" : 1614017106181,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddeabce9417043a7",
+  "name" : "Product Adapter communicates with Service",
+  "time" : {
+    "start" : 1614017106303,
+    "stop" : 1614017106371,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f3c5590fec0b54f",
+  "name" : "Add new product using service",
+  "time" : {
+    "start" : 1614017106184,
+    "stop" : 1614017106191,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b7d3a879b5193f5",
+  "name" : "[5] 5, IPAD, 100",
+  "time" : {
+    "start" : 1614017106230,
+    "stop" : 1614017106232,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f9516c11a80d57b",
+  "name" : "[4] 4, STAR WARS, 10",
+  "time" : {
+    "start" : 1614017106217,
+    "stop" : 1614017106219,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7868111423c3ff4",
+  "name" : "[1] 1, PLAYSTATION 1, 100.19",
+  "time" : {
+    "start" : 1614017106124,
+    "stop" : 1614017106147,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed1874f4f61c1dce",
+  "name" : "Find all products",
+  "time" : {
+    "start" : 1614017107039,
+    "stop" : 1614017107102,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
