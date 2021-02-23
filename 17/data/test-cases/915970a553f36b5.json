@@ -1,0 +1,57 @@
+{
+  "uid" : "915970a553f36b5",
+  "name" : "[2] FASHION",
+  "fullName" : "com.luiz.domain.model.CategoryTest.getDescription",
+  "historyId" : "b6baf1a982ab31b0ab6454621795064d",
+  "time" : {
+    "start" : 1614110866714,
+    "stop" : 1614110866715,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az59-111"
+  }, {
+    "name" : "thread",
+    "value" : "2871@fv-az59-111.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.domain.model.CategoryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.domain.model.CategoryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getDescription"
+  }, {
+    "name" : "suite",
+    "value" : "Category Enum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "915970a553f36b5.json",
+  "parameterValues" : [ ]
+}
