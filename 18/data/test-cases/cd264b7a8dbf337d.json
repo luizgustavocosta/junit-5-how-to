@@ -1,0 +1,77 @@
+{
+  "uid" : "cd264b7a8dbf337d",
+  "name" : "[8] TOYS",
+  "fullName" : "com.luiz.domain.model.CategoryTest.getDescription",
+  "historyId" : "e026445b32a4e281623fa3a719160740",
+  "time" : {
+    "start" : 1614704217026,
+    "stop" : 1614704217027,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az92-228"
+  }, {
+    "name" : "thread",
+    "value" : "3426@fv-az92-228.ForkJoinPool-1-worker-1(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.luiz.domain.model.CategoryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.luiz.domain.model.CategoryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getDescription"
+  }, {
+    "name" : "suite",
+    "value" : "Category Enum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "433fabaae89508ef",
+        "reportUrl" : "https://luizgustavocosta.github.io/junit-5-how-to/17//#testresult/433fabaae89508ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614110866742,
+          "stop" : 1614110866742,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cd264b7a8dbf337d.json",
+  "parameterValues" : [ ]
+}
