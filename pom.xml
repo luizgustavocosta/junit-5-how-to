@@ -25,7 +25,7 @@
         <mockito.junit.jupiter.vesion>3.3.0</mockito.junit.jupiter.vesion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring.framework.version>5.1.8.RELEASE</spring.framework.version>
+        <spring.framework.version>5.2.22.RELEASE</spring.framework.version>
         <spring.maven.plugin.version>1.4.2.RELEASE</spring.maven.plugin.version>
         <reflections.version>0.9.10</reflections.version>
         <aspectj.version>1.9.4</aspectj.version>
